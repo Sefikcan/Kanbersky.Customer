@@ -1,0 +1,15 @@
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Business.deps.json
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Business.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Business.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Business.csprojAssemblyReference.cache
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Business.AssemblyInfoInputs.cache
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Business.AssemblyInfo.cs
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Business.csproj.CopyComplete
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Business.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Business\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Business.pdb

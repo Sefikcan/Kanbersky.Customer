@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kanbersky.Customer.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Kanbersky.Customer.Api.Controllers.CustomersController">
+            <summary>
+            Customers Controller
+            </summary>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Controllers.CustomersController.#ctor(MediatR.IMediator)">
+            <summary>
+            ctor
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Controllers.CustomersController.GetAllCustomers">
+            <summary>
+            Gets the list of all Customers
+            </summary>
+            <returns>Returns All Customers List</returns>
+            <response code="200">Returns All Customers List</response>
+            <response code="404">If the item is null</response> 
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Controllers.CustomersController.GetCustomerById(System.Int32)">
+            <summary>
+            Get Customer Given By Id
+            </summary>
+            <param name="id"></param>
+            <returns>Returns the Given By Id Customer</returns>
+            <response code="200">Returns the Given By Id Customer</response>
+            <response code="404">If the item is null</response> 
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Controllers.CustomersController.CreateCustomer(Kanbersky.Customer.Business.DTO.Request.CreateCustomerRequest)">
+            <summary>
+            Create an Customer
+            </summary>
+            <param name="createCustomerRequest"></param>
+            <returns>A newly created customer</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response> 
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Controllers.CustomersController.UpdateCustomer(Kanbersky.Customer.Business.DTO.Request.UpdateCustomerRequest)">
+            <summary>
+            Update an Customer
+            </summary>
+            <param name="updateCustomerRequest"></param>
+            <returns>A newly updated customer</returns>
+            <response code="200">Returns the newly updated item</response>
+            <response code="400">If the item is null</response> 
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Controllers.CustomersController.DeleteCustomer(System.Int32)">
+            <summary>
+            Delete Customer Given By Id
+            </summary>
+            <param name="id"></param>
+            <returns>Returns boolean</returns>
+            <response code="204">Customer Successfully Deleted</response>
+            <response code="400">If the item is null</response>
+        </member>
+        <member name="T:Kanbersky.Customer.Api.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Program.Main(System.String[])">
+            <summary>
+            Main Methods
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Kanbersky.Customer.Api.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            ctor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Services Methods
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Kanbersky.Customer.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configure Methods
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

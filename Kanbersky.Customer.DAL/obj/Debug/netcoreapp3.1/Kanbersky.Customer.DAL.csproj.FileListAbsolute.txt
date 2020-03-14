@@ -1,0 +1,15 @@
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.csprojAssemblyReference.cache
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.AssemblyInfoInputs.cache
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.AssemblyInfo.cs
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.deps.json
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.runtimeconfig.json
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.runtimeconfig.dev.json
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.csproj.CopyComplete
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Customer.DAL.pdb
