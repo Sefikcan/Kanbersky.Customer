@@ -19,6 +19,8 @@ using Kanbersky.Customer.Business.Validators;
 using Kanbersky.Customer.Business.DTO.Request;
 using FluentValidation;
 using Kanbersky.Customer.Core.Extensions;
+using Kanbersky.Customer.Business.Extensions;
+using Kanbersky.Customer.Core.Validators;
 
 namespace Kanbersky.Customer.Api
 {
@@ -44,19 +46,26 @@ namespace Kanbersky.Customer.Api
         /// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers()
-                .AddFluentValidation(fv=> {
-                    fv.RegisterValidatorsFromAssemblyContaining<Startup>();
-                });
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(new ResponseValidator());
+            });
 
-            services.AddMediatR(typeof(GetAllCustomersQueryHandler),typeof(GetCustomerByIdHandlers),typeof(DeleteCustomerCommandHandler),typeof(CreateCustomerCommandHandler),typeof(UpdateCustomerCommandHandler));
+            services.AddControllers()
+                .ConfigureApiBehaviorOptions(opt=> 
+                {
+                    opt.SuppressModelStateInvalidFilter = true;
+                })
+                .AddFluentValidation();
+
+            services.AddMediatR(typeof(GetAllCustomersQueryHandler), typeof(GetCustomerByIdHandlers), typeof(DeleteCustomerCommandHandler), typeof(CreateCustomerCommandHandler), typeof(UpdateCustomerCommandHandler));
 
             services.AddDbContext<KanberContext>(opt =>
             {
                 opt.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]);
             });
 
-            services.AddTransient<IValidator<CreateCustomerRequest>, CreateCustomerRequestValidator>();
+            services.RegisterValidators();
 
             var mappingConfig = new MapperConfiguration(mc =>
             {

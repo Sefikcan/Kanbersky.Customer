@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
+﻿using Microsoft.AspNetCore.Mvc.Filters;
 using System.Collections.Generic;
 
 namespace Kanbersky.Customer.Core.Validators
@@ -24,9 +23,7 @@ namespace Kanbersky.Customer.Core.Validators
                     }
                 }
 
-                var result = new ValidatorResult(errors);
-
-                context.Result = new JsonResult(result);
+                throw new ValidatorException(errors);
             }
         }
     }
