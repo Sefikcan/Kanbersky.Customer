@@ -235,3 +235,5 @@ D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Tests\bin\Debu
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Tests\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Tests\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Tests.dll
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Tests\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Tests.pdb
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Tests\bin\Debug\netcoreapp3.1\AutoFixture.dll
+D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Tests\bin\Debug\netcoreapp3.1\Fare.dll

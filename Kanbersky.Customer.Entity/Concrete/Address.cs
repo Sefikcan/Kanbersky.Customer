@@ -11,6 +11,6 @@ namespace Kanbersky.Customer.Entity.Concrete
 
         public int CustomerId { get; set; }
 
-        public virtual Customer Customer { get; set; }
+        //public virtual Customer Customer { get; set; }
     }
 }

@@ -459,6 +459,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[5.10.2, )"

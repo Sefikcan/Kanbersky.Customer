@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Kanbersky.Customer.Tests/1.0.0": {
         "dependencies": {
+          "AutoFixture": "4.11.0",
           "FluentAssertions": "5.10.2",
           "Kanbersky.Customer.Api": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.2.0",
@@ -18,6 +19,18 @@
         },
         "runtime": {
           "Kanbersky.Customer.Tests.dll": {}
+        }
+      },
+      "AutoFixture/4.11.0": {
+        "dependencies": {
+          "Fare": "2.1.1",
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoFixture.dll": {
+            "assemblyVersion": "4.11.0.0",
+            "fileVersion": "4.11.0.549"
+          }
         }
       },
       "AutoMapper/9.0.0": {
@@ -63,6 +76,17 @@
           "lib/netstandard2.0/Elasticsearch.Net.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Fare/2.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Fare.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.1.0"
           }
         }
       },
@@ -2529,6 +2553,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoFixture/4.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2C8JcuQU70dJQ8v5YVwkLPyd0pzpcXT5SF6z+K+FwoRb0HWpmLEaNHw1nYx+wpjgf35AyivF+p/7hPhWsBj0YQ==",
+      "path": "autofixture/4.11.0",
+      "hashPath": "autofixture.4.11.0.nupkg.sha512"
+    },
     "AutoMapper/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2556,6 +2587,13 @@
       "sha512": "sha512-2rLkJUu0c6xh/IVGRcIlvsZSA6pv9ach2K3xuTZpWcaB6WHFdIW/ot+cmyALF4SFvk6uKHPesUN5M3Pd8wI86g==",
       "path": "elasticsearch.net/7.0.0",
       "hashPath": "elasticsearch.net.7.0.0.nupkg.sha512"
+    },
+    "Fare/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HaI8puqA66YU7/9cK4Sgbs1taUTP1Ssa4QT2PIzqJ7GvAbN1QgkjbRsjH+FSbMh1MJdvS0CIwQNLtFT+KF6KpA==",
+      "path": "fare/2.1.1",
+      "hashPath": "fare.2.1.1.nupkg.sha512"
     },
     "FluentAssertions/5.10.2": {
       "type": "package",
