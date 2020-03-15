@@ -2865,6 +2865,7 @@
           "Kanbersky.Customer.DAL": "1.0.0",
           "Kanbersky.Customer.Entity": "1.0.0",
           "MediatR": "8.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
         },
         "compile": {
@@ -9097,7 +9098,6 @@
       "Kanbersky.Customer.Business >= 1.0.0",
       "Kanbersky.Customer.Core >= 1.0.0",
       "Kanbersky.Customer.DAL >= 1.0.0",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.2",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.2",
@@ -9161,10 +9161,6 @@
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[8.6.2, )"
-          },
-          "MediatR.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[8.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

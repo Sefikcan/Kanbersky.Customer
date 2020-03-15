@@ -58,13 +58,12 @@ namespace Kanbersky.Customer.Api
                 })
                 .AddFluentValidation();
 
-            services.AddMediatR(typeof(GetAllCustomersQueryHandler), typeof(GetCustomerByIdHandlers), typeof(DeleteCustomerCommandHandler), typeof(CreateCustomerCommandHandler), typeof(UpdateCustomerCommandHandler));
-
             services.AddDbContext<KanberContext>(opt =>
             {
                 opt.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]);
             });
 
+            services.RegisterHandlers();
             services.RegisterValidators();
 
             var mappingConfig = new MapperConfiguration(mc =>

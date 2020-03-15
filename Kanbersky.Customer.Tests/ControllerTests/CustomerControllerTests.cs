@@ -41,7 +41,7 @@ namespace Kanbersky.Customer.Tests.ControllerTests
         //public void GetAll_Should_Return_As_Expected()
         //{
         //    //Arrange
-        //    _mediator.Setup(s => s.Send(It.IsAny<GetAllCustomersQuery>())).Returns(Task.FromResult(_customerListResponse.Object));
+        //    _mediator.Setup(s => s.Send(new GetAllCustomersQuery())).Returns(Task.FromResult(_customerListResponse.Object));
 
         //    //Act
         //    var actual = _sut.GetAllCustomers().GetAwaiter().GetResult();
