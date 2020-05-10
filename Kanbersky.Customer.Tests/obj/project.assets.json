@@ -10771,11 +10771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\Kanbersky.Customer.Tests.csproj",
+      "projectUniqueName": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\Kanbersky.Customer.Tests.csproj",
       "projectName": "Kanbersky.Customer.Tests",
-      "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\Kanbersky.Customer.Tests.csproj",
+      "projectPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\Kanbersky.Customer.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\obj\\",
+      "outputPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10791,8 +10791,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Api\\Kanbersky.Customer.Api.csproj": {
-              "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Api\\Kanbersky.Customer.Api.csproj"
+            "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Api\\Kanbersky.Customer.Api.csproj": {
+              "projectPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Api\\Kanbersky.Customer.Api.csproj"
             }
           }
         }
@@ -10853,7 +10853,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5648,11 +5648,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Business\\Kanbersky.Customer.Business.csproj",
+      "projectUniqueName": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Business\\Kanbersky.Customer.Business.csproj",
       "projectName": "Kanbersky.Customer.Business",
-      "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Business\\Kanbersky.Customer.Business.csproj",
+      "projectPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Business\\Kanbersky.Customer.Business.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Business\\obj\\",
+      "outputPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5668,11 +5668,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.DAL\\Kanbersky.Customer.DAL.csproj": {
-              "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.DAL\\Kanbersky.Customer.DAL.csproj"
+            "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.DAL\\Kanbersky.Customer.DAL.csproj": {
+              "projectPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.DAL\\Kanbersky.Customer.DAL.csproj"
             },
-            "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Entity\\Kanbersky.Customer.Entity.csproj": {
-              "projectPath": "D:\\WorkSpaces\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Entity\\Kanbersky.Customer.Entity.csproj"
+            "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Entity\\Kanbersky.Customer.Entity.csproj": {
+              "projectPath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Entity\\Kanbersky.Customer.Entity.csproj"
             }
           }
         }
@@ -5725,7 +5725,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
