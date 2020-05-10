@@ -21,6 +21,7 @@ namespace Kanbersky.Customer.Api
         {
             var logServerSettings = BaseHelpers.GetConfigurationRoot(args).GetSection("ElasticsearchSettings").Get<ElasticsearchSettings>();
             Log.Logger = new LoggerHelpers(logServerSettings).Register(typeof(Startup).Assembly.GetName().Name, LogEventLevel.Warning);
+
             CreateHostBuilder(args).Build().Run();
         }
 
