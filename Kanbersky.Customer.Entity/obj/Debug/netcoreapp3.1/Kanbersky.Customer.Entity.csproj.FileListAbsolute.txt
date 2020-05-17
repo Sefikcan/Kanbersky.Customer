@@ -9,3 +9,15 @@ D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Deb
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.csproj.CopyComplete
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.dll
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.pdb
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.deps.json
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.dll
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.pdb
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.dll
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.pdb
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.csprojAssemblyReference.cache
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.csproj.CopyComplete
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.dll
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Entity\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Entity.pdb

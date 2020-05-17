@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanbersky.Customer.Core", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanbersky.Customer.Entity", "Kanbersky.Customer.Entity\Kanbersky.Customer.Entity.csproj", "{1E2BF011-0D33-4397-B4C5-C2ED7D636318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanbersky.Customer.Tests", "Kanbersky.Customer.Tests\Kanbersky.Customer.Tests.csproj", "{FA476AD7-C71B-4680-9537-478BFB87E0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanbersky.Customer.Tests", "Kanbersky.Customer.Tests\Kanbersky.Customer.Tests.csproj", "{FA476AD7-C71B-4680-9537-478BFB87E0B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

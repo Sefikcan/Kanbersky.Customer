@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oOWRDzagTUIhV71KlRS5WQMekILxegNHv0jrJVOoP8OxiHxWlz/T4vf6hAx8BMqL4DLFafSvPQGoAZFMHg9nvA==",
+  "dgSpecHash": "7p3NZi//DojwZ5GwNAbuW3U6FyQQMyw/k9uJUBqW76x98nQa4Yr+qGt2DHG9r7PsxVGSVY6ZhLUDAbgMmi3Paw==",
   "success": true,
   "projectFilePath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Tests\\Kanbersky.Customer.Tests.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.2.0\\microsoft.testplatform.objectmodel.16.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.testhost\\16.2.0\\microsoft.testplatform.testhost.16.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.1\\microsoft.visualstudio.web.codegeneration.3.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.1\\microsoft.visualstudio.web.codegeneration.contracts.3.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.1\\microsoft.visualstudio.web.codegeneration.core.3.1.1.nupkg.sha512",
