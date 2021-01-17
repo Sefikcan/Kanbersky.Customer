@@ -9,7 +9,6 @@ D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\obj\Debug
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.deps.json
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.dll
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Core.pdb
-D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Core.csprojAssemblyReference.cache
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Core.csproj.CoreCompileInputs.cache
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Core.AssemblyInfoInputs.cache
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Core\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Core.AssemblyInfo.cs

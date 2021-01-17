@@ -1,9 +1,8 @@
-﻿using Kanbersky.Customer.Core.Results;
-using MediatR;
+﻿using MediatR;
 
 namespace Kanbersky.Customer.Business.Commands
 {
-    public class DeleteCustomerCommand : IRequest<IResult>
+    public class DeleteCustomerCommand : IRequest
     {
         public int Id { get; set; }
 

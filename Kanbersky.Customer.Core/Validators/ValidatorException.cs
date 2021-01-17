@@ -1,5 +1,4 @@
-﻿using Kanbersky.Customer.Core.Results;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 

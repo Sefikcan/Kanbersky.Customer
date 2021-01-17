@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http.Extensions;
 using Newtonsoft.Json;
 using Serilog;
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,7 +41,7 @@ namespace Kanbersky.Customer.Core.Middlewares
             }
             catch(ValidatorException ex)
             {
-                await BadRequest(context, new ValidationResult(ex.Errors));
+                await BadRequest(context, new ValidationResult(ex.Message));
             }
             catch (Exception ex)
             {
@@ -74,7 +75,7 @@ namespace Kanbersky.Customer.Core.Middlewares
             context.Response.ContentType = contentType;
             context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
             context.Response.StatusCode = StatusCodes.Status500InternalServerError;
-            await context.Response.WriteAsync("Sunucuda beklenmeyen bir hata oluştu.", Encoding.UTF8);
+            await context.Response.WriteAsync(exception.Message, Encoding.UTF8);
         }
 
         private static async Task BadRequest(HttpContext context, ValidationResult result, string contentType = "text/plain")

@@ -1,10 +1,9 @@
 ﻿using Kanbersky.Customer.Business.DTO.Response;
-using Kanbersky.Customer.Core.Results;
 using MediatR;
 
 namespace Kanbersky.Customer.Business.Queries
 {
-    public class GetCustomerByIdQuery : IRequest<IDataResult<GetCustomerByIdQueryResponse>>
+    public class GetCustomerByIdQuery : IRequest<GetCustomerByIdQueryResponse>
     {
         public int Id { get; set; }
 

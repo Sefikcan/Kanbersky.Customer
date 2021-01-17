@@ -1,17 +1,15 @@
 ﻿using AutoMapper;
 using Kanbersky.Customer.Business.DTO.Response;
 using Kanbersky.Customer.Business.Queries;
-using Kanbersky.Customer.Core.Results;
 using Kanbersky.Customer.DAL.Concrete.EntityFramework.GenericRepository;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace Kanbersky.Customer.Business.Handlers
 {
-    public class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustomersQuery, IDataResult<List<GetAllCustomerQueryResponse>>>
+    public class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustomersQuery, List<GetAllCustomerQueryResponse>>
     {
         #region fields
 
@@ -33,15 +31,15 @@ namespace Kanbersky.Customer.Business.Handlers
 
         #region methods
 
-        public async Task<IDataResult<List<GetAllCustomerQueryResponse>>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
+        public async Task<List<GetAllCustomerQueryResponse>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
         {
             var response = await _repository.GetList();
             if (response.Count>0)
             {
-                return new SuccessDataResult<List<GetAllCustomerQueryResponse>>(_mapper.Map<List<GetAllCustomerQueryResponse>>(response),StatusCodes.Status200OK);
+                return _mapper.Map<List<GetAllCustomerQueryResponse>>(response);
             }
 
-            return new ErrorDataResult<List<GetAllCustomerQueryResponse>>("Customer Not Found",_mapper.Map<List<GetAllCustomerQueryResponse>>(response), StatusCodes.Status404NotFound);
+            throw new System.Exception("Customer Not Found!");
         }
 
         #endregion

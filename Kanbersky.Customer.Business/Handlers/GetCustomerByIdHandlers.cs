@@ -1,16 +1,14 @@
 ﻿using AutoMapper;
 using Kanbersky.Customer.Business.DTO.Response;
 using Kanbersky.Customer.Business.Queries;
-using Kanbersky.Customer.Core.Results;
 using Kanbersky.Customer.DAL.Concrete.EntityFramework.GenericRepository;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace Kanbersky.Customer.Business.Handlers
 {
-    public class GetCustomerByIdHandlers : IRequestHandler<GetCustomerByIdQuery, IDataResult<GetCustomerByIdQueryResponse>>
+    public class GetCustomerByIdHandlers : IRequestHandler<GetCustomerByIdQuery, GetCustomerByIdQueryResponse>
     {
         #region fields
 
@@ -32,15 +30,15 @@ namespace Kanbersky.Customer.Business.Handlers
 
         #region methods
 
-        public async Task<IDataResult<GetCustomerByIdQueryResponse>> Handle(GetCustomerByIdQuery request, CancellationToken cancellationToken)
+        public async Task<GetCustomerByIdQueryResponse> Handle(GetCustomerByIdQuery request, CancellationToken cancellationToken)
         {
             var response = await _repository.Get(x => x.Id == request.Id);
             if (response != null)
             {
-                return new SuccessDataResult<GetCustomerByIdQueryResponse>(_mapper.Map<GetCustomerByIdQueryResponse>(response), StatusCodes.Status200OK);
+                return _mapper.Map<GetCustomerByIdQueryResponse>(response);
             }
 
-            return new ErrorDataResult<GetCustomerByIdQueryResponse>("Customer Not Found",_mapper.Map<GetCustomerByIdQueryResponse>(response), StatusCodes.Status400BadRequest);
+            throw new System.Exception("Customer Not Found!");
         }
 
         #endregion

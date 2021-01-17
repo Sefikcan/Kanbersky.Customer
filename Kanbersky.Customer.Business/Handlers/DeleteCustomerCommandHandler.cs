@@ -3,12 +3,10 @@ using Kanbersky.Customer.DAL.Concrete.EntityFramework.GenericRepository;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using Kanbersky.Customer.Core.Results;
-using Microsoft.AspNetCore.Http;
 
 namespace Kanbersky.Customer.Business.Handlers
 {
-    public class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand, IResult>
+    public class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand,Unit>
     {
         #region fields
 
@@ -27,19 +25,16 @@ namespace Kanbersky.Customer.Business.Handlers
 
         #region methods
 
-        public async Task<IResult> Handle(DeleteCustomerCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(DeleteCustomerCommand request, CancellationToken cancellationToken)
         {
             var response = await _repository.Get(x => x.Id == request.Id);
             if (response != null)
             {
                 _repository.Delete(response);
-                if (await _repository.SaveChangesAsync() > 0)
-                {
-                    return new SuccessResult(StatusCodes.Status204NoContent);
-                }
+                await _repository.SaveChangesAsync();
             }
 
-            return new ErrorResult("Entity Remove Failed",StatusCodes.Status400BadRequest);
+            throw new System.Exception("Customer Not Found!");
         }
 
         #endregion

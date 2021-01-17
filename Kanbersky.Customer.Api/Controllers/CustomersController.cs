@@ -48,7 +48,7 @@ namespace Kanbersky.Customer.Api.Controllers
         public async Task<IActionResult> GetAllCustomers()
         {
             var result = await _mediator.Send(new GetAllCustomersQuery());
-            return StatusCode(result.StatusCode,result);
+            return Ok(result);
         }
 
         /// <summary>
@@ -64,7 +64,7 @@ namespace Kanbersky.Customer.Api.Controllers
         public async Task<IActionResult> GetCustomerById(int id)
         {
             var result = await _mediator.Send(new GetCustomerByIdQuery(id));
-            return StatusCode(result.StatusCode, result);
+            return Ok(result);
         }
 
         /// <summary>
@@ -80,7 +80,7 @@ namespace Kanbersky.Customer.Api.Controllers
         public async Task<IActionResult> CreateCustomer([FromBody] CreateCustomerRequest createCustomerRequest)
         {
             var result = await _mediator.Send(new CreateCustomerCommand(createCustomerRequest));
-            return StatusCode(result.StatusCode, result);
+            return Ok(result);
         }
 
         /// <summary>
@@ -96,7 +96,7 @@ namespace Kanbersky.Customer.Api.Controllers
         public async Task<IActionResult> UpdateCustomer([FromBody] UpdateCustomerRequest updateCustomerRequest)
         {
             var result = await _mediator.Send(new UpdateCustomerCommand(updateCustomerRequest));
-            return StatusCode(result.StatusCode, result);
+            return Ok(result);
         }
 
         /// <summary>
@@ -111,8 +111,8 @@ namespace Kanbersky.Customer.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> DeleteCustomer([FromQuery] int id)
         {
-            var result = await _mediator.Send(new DeleteCustomerCommand(id));
-            return StatusCode(result.StatusCode, result);
+            await _mediator.Send(new DeleteCustomerCommand(id));
+            return NoContent();
         }
 
         #endregion
