@@ -1,5 +1,4 @@
-﻿using Kanbersky.Customer.Core.Middlewares;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 
 namespace Kanbersky.Customer.Core.Extensions
 {
@@ -7,7 +6,6 @@ namespace Kanbersky.Customer.Core.Extensions
     {
         public static void UseExceptionMiddleware(this IApplicationBuilder app)
         {
-            app.UseMiddleware<ExceptionMiddleware>();
         }
     }
 }
