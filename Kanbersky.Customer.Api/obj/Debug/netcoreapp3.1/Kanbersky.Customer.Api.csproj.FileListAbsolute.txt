@@ -157,7 +157,6 @@ D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\obj\Debug\
 D:\WorkSpaces\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\appsettings.json
-D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Api.exe
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Api.deps.json
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\bin\Debug\netcoreapp3.1\Kanbersky.Customer.Api.runtimeconfig.json
@@ -314,3 +313,4 @@ D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\o
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Api.csproj.CoreCompileInputs.cache
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\obj\Debug\netcoreapp3.1\Kanbersky.Customer.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\WorkSpaces\Back-end\Microservices\Kanbersky.Customer\Kanbersky.Customer.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Kanbersky.Customer.Api.styles.css

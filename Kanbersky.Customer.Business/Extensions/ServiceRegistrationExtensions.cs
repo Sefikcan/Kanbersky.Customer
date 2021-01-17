@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
 using Kanbersky.Customer.Business.DTO.Request;
-using Kanbersky.Customer.Business.Handlers;
 using Kanbersky.Customer.Business.Validators;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace Kanbersky.Customer.Business.Extensions
 {
@@ -11,7 +11,7 @@ namespace Kanbersky.Customer.Business.Extensions
     {
         public static void RegisterHandlers(this IServiceCollection services)
         {
-            services.AddMediatR(typeof(GetAllCustomersQueryHandler), typeof(GetCustomerByIdHandlers), typeof(DeleteCustomerCommandHandler), typeof(CreateCustomerCommandHandler), typeof(UpdateCustomerCommandHandler));
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         public static void RegisterValidators(this IServiceCollection services)
