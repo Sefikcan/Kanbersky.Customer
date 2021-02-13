@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+RgjUGiJZhBWc+mekaHYtqP8Xst/bqLFj/joNoQjylvEYnRIy1h4tG9TYy1ABDNjjKblxbkPSbrXSxFSocSQfg==",
+  "dgSpecHash": "8ivv6Tpm2ijDZsjlfc7PyEr6NdK2LNR+eLDncfUpt8gQf8BG0KGhczdX+6GyyduZBqYtl7JJ+EFcV0lFldAL0g==",
   "success": true,
   "projectFilePath": "D:\\WorkSpaces\\Back-end\\Microservices\\Kanbersky.Customer\\Kanbersky.Customer.Entity\\Kanbersky.Customer.Entity.csproj",
   "expectedPackageFiles": [
